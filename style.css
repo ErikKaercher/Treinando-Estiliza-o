@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Barra de navageção*/
+header{
+    padding: 1.8rem;
+    background-color: #100232;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+body{
+    background-color: #182049;
+}
+
+/*Seleção*/
+main{
+    display: flex;
+    margin: 0px 7rem
+}
+main div{
+    height: 42vw;
+    width: 100%;
+    
+}
+
+main div a img{
+    width: 49.8%;
+    height: 50%;
+  
+}
