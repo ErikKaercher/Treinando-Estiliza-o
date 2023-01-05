@@ -22,19 +22,58 @@ body{
     background-color: #182049;
 }
 
-/*Seleção*/
-main{
-    display: flex;
-    margin: 0px 7rem
-}
-main div{
-    height: 42vw;
+/*Tecnologias*/
+
+#technologies{
+    margin: 2rem 0;
     width: 100%;
+    height: 18rem;
+    display: flex;
+}
+
+.cards{
+    margin: 0 auto;
+    background-color: bisque;
+    width: 20%;
+    height: 100%;    
+}
+
+.cards > img{
+    margin: 1rem;
+    width: 30%;
+}
+.cards > h3{
+    margin: 0.2rem 1rem;
+}
+.cards > p{
+    margin: 0 1rem;
+    text-align: justify;
+}
+
+/*Seleção*/
+
+#projects{
+    height: 80rem;
+    width: 100%;  
+    padding: 2rem 10rem
+}
+
+#projects > div{
+    display: flex;
+    height: 25%;
+}
+
+#projects a{
+    width: 50%;
     
 }
 
-main div a img{
-    width: 49.8%;
-    height: 50%;
-  
+#projects img{
+    width: 100%;
+    height: 100%;
+}
+
+#description_project{
+    background-color: white;
+    width: 50%;
 }
